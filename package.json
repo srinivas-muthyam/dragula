@@ -1,6 +1,6 @@
 {
   "name": "@swimlane/dragula",
-  "version": "3.7.3",
+  "version": "3.8.0",
   "description": "Drag and drop so simple it hurts",
   "main": "dragula.js",
   "scripts": {
