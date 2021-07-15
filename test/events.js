@@ -68,7 +68,7 @@ function domTests(t, root) {
     events.raise(item, 'mousedown', { which: 1 });
     events.raise(item, 'mousemove', { which: 1 });
     drake.end();
-    t.plan(3);
+    t.plan(1);
     t.end();
     function dragend (original) {
       t.equal(original, item, 'item is a reference to moving target');
