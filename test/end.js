@@ -53,7 +53,7 @@ function domTests(t, root) {
     drake.on('dragend', end);
     drake.on('cancel', cancel);
     drake.end();
-    t.plan(4);
+    t.plan(2);
     t.equal(drake.dragging, false, 'final state is: drake is not dragging');
     t.end();
     function end (item) {
