@@ -1,5 +1,5 @@
 {
-  "name": "@shadowelements/dragula",
+  "name": "@ngx-elements/dragula",
   "version": "3.9.0",
   "description": "Drag and drop so simple it hurts",
   "main": "dragula.js",
