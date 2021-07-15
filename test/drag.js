@@ -74,7 +74,7 @@ function domTests(t, root) {
     drake.on('drag', drag);
     events.raise(item2, 'mousedown', {which: 1});
     events.raise(item2, 'mousemove', {which: 1});
-    t.plan(7);
+    t.plan(5);
     t.equal(drake.dragging, true, 'final state is drake is dragging');
     t.end();
 
